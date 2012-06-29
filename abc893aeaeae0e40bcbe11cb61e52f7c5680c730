@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAUH//7hQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-06-29T22:45:16Z",
+      "side": 1,
+      "message": "voor -\u003e tot?",
+      "revId": "abc893aeaeae0e40bcbe11cb61e52f7c5680c730",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//7hM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-06-29T22:45:16Z",
+      "side": 1,
+      "message": "thema van",
+      "revId": "abc893aeaeae0e40bcbe11cb61e52f7c5680c730",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
