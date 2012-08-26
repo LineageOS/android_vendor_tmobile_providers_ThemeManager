@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAW3///6U\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-08-26T16:17:30Z",
+      "side": 1,
+      "message": "Is \"Provider thema\u0027s\" de juiste vertaling van \"Theme provider\". Het gaat toch om de thema leveraar, en niet provider thema\u0027s? Zeker weten doe ik het niet...",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
