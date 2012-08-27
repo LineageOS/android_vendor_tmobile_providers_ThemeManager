@@ -16,6 +16,57 @@
       "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Uw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-27T14:41:10Z",
+      "side": 1,
+      "message": "Mee eens, moeilijk te vertalen. Iets van thema leverancier is het meest letterlijk",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Us\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-27T14:41:10Z",
+      "side": 1,
+      "message": "Mediabestanden?",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Uo\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-27T14:41:10Z",
+      "side": 1,
+      "message": "Zelfde",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
