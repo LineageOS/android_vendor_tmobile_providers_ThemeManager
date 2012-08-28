@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAW3//+8o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-28T13:08:59Z",
+      "side": 1,
+      "message": "Er zijn meerdere app-providers in GB/ICS/JB, maar meestal worden ze vertaald met de term \u0027opslag\u0027 of gewoon \u0027provider\u0027.\nGeen leverancier/aanbieder, want het levert zelf geen thema\u0027s.\nGeen kiezer, want je kunt hier niets mee kiezen.\n\nHet enige wat ik kan bedenken is dat deze app de benodigde machtigingen biedt voor het instellen van het systeemthema.",
+      "parentUuid": "AAAAW3///OI\u003d",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAW3///Us\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -71,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAW3//+8w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-28T13:08:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAW3///Us\u003d",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAW3///Uo\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -82,6 +118,24 @@
       "writtenOn": "2012-08-27T14:41:10Z",
       "side": 1,
       "message": "Zelfde",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3//+8s\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-28T13:08:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAW3///Uo\u003d",
       "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
