@@ -126,6 +126,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAW3//+6w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-28T16:35:44Z",
+      "side": 1,
+      "message": "Theme provider !\u003d Thema provider\nTheme provider \u003d\u003d Themaprovider\n\nIn het Nederlands is het zo dat een zelfst. nmw. aan elkaar geschreven wordt. Een spatie tussen twee zelfst. nmw. impliceert dat het tweede onderdeel wordt van het eerste. Dit verschijnsel kent het Engels dan weer niet. Vandaar dat je \u0027theme provider\u0027 krijgt en niet \u0027themeprovider\u0027.\nHet Engels wordt steeds vaker gebruikt, waardoor die bovenstaande regel soms wordt \u0027vergeten\u0027. Dit verschijnsel (meer Engelse invloeden) wordt de Engelse ziekte genoemd.\n\nhttps://nl.wikipedia.org/wiki/Engelse_ziekte_(taal)\n\u003e\u003e onjuist spatiegebruik in samenstellingen (trein reiziger in plaats van het correcte treinreiziger)\ntrein reiziger \u003d\u003d trein van reiziger\n\nhttps://nl.wikipedia.org/wiki/Onjuist_spatiegebruik\n\u003e\u003e zie voorbeelden en verklaring\n\nZo zie je ook dat Engelse benamingen die in Nederlandse teksten voorkomen, steeds vaker aan elkaar geschreven worden.\nVoorbeeld: touchscreen (Engels: touch screen, \u0027echt\u0027 Nederlands: aanraakscherm)",
+      "parentUuid": "AAAAW3//+68\u003d",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAW3///Us\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
