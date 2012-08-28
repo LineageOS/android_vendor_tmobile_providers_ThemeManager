@@ -144,6 +144,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAW3//+6o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-28T16:40:55Z",
+      "side": 1,
+      "message": "Themaprovider dan?",
+      "parentUuid": "AAAAW3//+6w\u003d",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAW3///Us\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
