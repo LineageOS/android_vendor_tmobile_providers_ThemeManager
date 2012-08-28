@@ -108,6 +108,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAW3//+68\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-28T16:02:17Z",
+      "side": 1,
+      "message": "Thema provider is de provider van een thema, Thema van provider is bijvoorbeeld Thema van Vodafone lijkt mij (en Provider thema\u0027s vind ik net zo klinken). Ik ben dus voorstander van de tweede.\n- Thema provider",
+      "parentUuid": "AAAAW3//+7Q\u003d",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAW3///Us\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
