@@ -162,6 +162,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAXH///10\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-30T04:58:06Z",
+      "side": 1,
+      "message": "Engels: Themes Provider\n\nIk ben het eigenlijk met Marco eens, er is bijv. ook al een \"Provider zoektoepassingen\"\n\nAan de andere kant is het voor het gebruiksgemak handiger om te kiezen voor \"Themaprovider\" zodat die makkelijker te vinden is naast de al bestaande \"Themakiezer\"",
+      "parentUuid": "AAAAW3//+6o\u003d",
+      "revId": "df8f5aa399024f21f9bbe1c7962ad75bc6fcf64c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAW3///Us\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
