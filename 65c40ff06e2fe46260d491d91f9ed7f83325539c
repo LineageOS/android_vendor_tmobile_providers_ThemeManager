@@ -16,6 +16,24 @@
       "revId": "65c40ff06e2fe46260d491d91f9ed7f83325539c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//91c\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-04-06T22:20:04Z",
+      "side": 1,
+      "message": "Non, mais du coup c\u0027est pareil au dessus ligne 21",
+      "parentUuid": "AAAAen//92s\u003d",
+      "revId": "65c40ff06e2fe46260d491d91f9ed7f83325539c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
