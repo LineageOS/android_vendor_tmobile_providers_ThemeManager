@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//92s\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-04-06T21:55:54Z",
+      "side": 1,
+      "message": "le message original pour cette ligne et la #21 est \"allows an application\", la traduction devrait plutôt être \"autorise une application\".. ai-je faux ?",
+      "revId": "65c40ff06e2fe46260d491d91f9ed7f83325539c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
