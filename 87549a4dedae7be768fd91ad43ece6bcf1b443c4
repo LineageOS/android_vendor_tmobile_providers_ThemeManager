@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//4qQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-04-19T19:31:55Z",
+      "side": 1,
+      "message": "ird egy szóba és felölem mehet",
+      "revId": "87549a4dedae7be768fd91ad43ece6bcf1b443c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
