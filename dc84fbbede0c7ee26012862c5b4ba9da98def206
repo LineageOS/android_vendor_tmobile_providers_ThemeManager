@@ -33,6 +33,24 @@
       "revId": "dc84fbbede0c7ee26012862c5b4ba9da98def206",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//38I\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-21T14:18:24Z",
+      "side": 1,
+      "message": "Name of permission is lowercase but description is uppercase. Same style of AOSP. See: https://github.com/CyanogenMod/android_frameworks_base/blob/cm-10.1/core/res/res/values-es/strings.xml#L228 and below.",
+      "parentUuid": "AAAAen//39c\u003d",
+      "revId": "dc84fbbede0c7ee26012862c5b4ba9da98def206",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
