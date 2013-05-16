@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "hvAwyKA",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2013-05-16T16:12:31Z",
+      "side": 1,
+      "message": "Læs DRM-beskyttede medieressourcer",
+      "revId": "7d0dd94fc79cd4f0a04ccc41c6d31a0bade10e4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
