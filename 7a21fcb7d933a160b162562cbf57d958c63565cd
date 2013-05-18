@@ -52,6 +52,24 @@
       "revId": "7a21fcb7d933a160b162562cbf57d958c63565cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hpawXI0",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-05-18T14:40:10Z",
+      "side": 1,
+      "message": "Nel\u0027zya AOSP teksty menyat\u0027:\nhttp://wiki.cyanogenmod.org/w/Doc:_Translation_Guide#AOSP_projects",
+      "parentUuid": "hrYqOCs",
+      "revId": "7a21fcb7d933a160b162562cbf57d958c63565cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
