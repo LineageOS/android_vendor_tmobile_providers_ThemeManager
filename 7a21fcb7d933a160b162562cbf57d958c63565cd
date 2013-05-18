@@ -34,6 +34,24 @@
       "revId": "7a21fcb7d933a160b162562cbf57d958c63565cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hrYqOCs",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-05-18T03:42:45Z",
+      "side": 1,
+      "message": "Ya tozhe ne ponimayu logiki, esli chestno. Mozhet, privesti k odnomu vidu ves\u0027 etot zoopark razresheniy?\nSeychas kak-to tak: https://dl.dropboxusercontent.com/u/16268774/Screenshots/Phone/Screenshot_2013-05-18-02-40-17.png",
+      "parentUuid": "hhYFbME",
+      "revId": "7a21fcb7d933a160b162562cbf57d958c63565cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
