@@ -16,6 +16,24 @@
       "revId": "7a21fcb7d933a160b162562cbf57d958c63565cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hhYFbME",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-05-18T02:53:10Z",
+      "side": 1,
+      "message": "V originale so strochnoy. Nekotorye razresheniya pishutsya s zaglavnoy, nekotorye so strochnoy - ya ne znayu pochemu tak. Te, kotorye pishutsya so strochnoy, chasche nachinayutsya s glagola (kak mne pokazalos\u0027). Ochen\u0027 mnogo primerov v faile frameworks/base/core/res/res/values-ru/strings.xml.",
+      "parentUuid": "hlZL9Fk",
+      "revId": "7a21fcb7d933a160b162562cbf57d958c63565cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
