@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "hrEWwlM",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-19T16:38:56Z",
+      "side": 1,
+      "message": "Ich denke, \u0027Design-Provider\u0027 passt da besser. Vielleicht sogar \u0027Design-Verzeichnis\u0027 oder \u0027Design-Speicher\u0027 (letzteres analog zu den AOSP-Übersetzungen für \u0027Provider\u0027)?",
+      "revId": "449ff906c57f5235a243a7db44d54f5b71050314",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "hpF3RtQ",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -13,6 +30,23 @@
       "writtenOn": "2013-05-19T14:21:27Z",
       "side": 1,
       "message": "Müsste es nicht \"Designs\" heißen?",
+      "revId": "449ff906c57f5235a243a7db44d54f5b71050314",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hpEM5kM",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-19T16:38:56Z",
+      "side": 1,
+      "message": "Definitiv.\nAOSP fängt diese Sätze übrigens mit \u0027Ermöglicht der App, ...\u0027 an - sollten wir hier vielleicht im Sinne der Konsistenz auch tun.",
       "revId": "449ff906c57f5235a243a7db44d54f5b71050314",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
