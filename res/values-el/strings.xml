@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!-- Copyright (C) 2010, T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,5 +19,5 @@
     <string name="permlab_access_DrmThemeResources">ανάγνωση προστατευμένων πολυμέσων με DRM</string>
     <string name="permdesc_access_DrmThemeResources">Επιτρέπει σε μια εφαρμογή την ανάγνωση προστατευμένων πολυμέσων με DRM των Πακέτων Θέματος</string>
     <string name="permlab_set_theme">αλλαγή θέματος συσκευής</string>
-    <string name="permdesc_set_theme">Επιτρέπει σε μια εφαρμογή την αλλαγή του θέματος της συσκευής σας.</string>
+    <string name="permdesc_set_theme">Επιτρέπει σε μια εφαρμογή την αλλαγή του θέματος της συσκευής σας</string>
 </resources>
