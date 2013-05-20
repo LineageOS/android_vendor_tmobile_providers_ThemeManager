@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "huOYAW0",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "- Theme provider",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hqOjGZ4",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "application \u003e\u003e app",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hoOgHZI",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "application \u003e\u003e app",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hsOdBVs",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "Please revert.\n\nhttp://wiki.cyanogenmod.org/w/Doc:_Translation_Guide#Permissions",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hmOtEYg",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "application \u003e\u003e app",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hkOqFXI",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "- Allows the app to read DRM-protected media resources of theme packages.\n\nI would add the period here since AOSP also adds it.",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hiO26dw",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "- set global theme",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "hgO77cU",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-20T15:01:35Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"permdesc_set_theme\" product\u003d\"default\"\u003eAllows the app to change the visual theme of your phone.\u003c/string\u003e\n\n\u003cstring name\u003d\"permdesc_set_theme\" product\u003d\"tablet\"\u003eAllows the app to change the visual theme of your tablet.\u003c/string\u003e\n\nI would add the period here since AOSP also adds it.",
+      "revId": "d67364463f493ab2e8bc5e41025eb94ab71a34f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
