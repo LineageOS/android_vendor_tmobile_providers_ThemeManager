@@ -19,6 +19,5 @@
     <string name="permlab_access_DrmThemeResources">DRM-geschützte Inhalte lesen</string>
     <string name="permdesc_access_DrmThemeResources">Ermöglicht der App, DRM-geschützte Inhalte eines Designs zu lesen.</string>
     <string name="permlab_set_theme">Globales Design ändern</string>
-    <string name="permdesc_set_theme" product="tablet">Ermöglicht der App, das Design der Benutzeroberfläche des Tablets zu ändern.</string>
-    <string name="permdesc_set_theme" product="default">Ermöglicht der App, das Design der Benutzeroberfläche des Telefons zu ändern.</string>
+    <string name="permdesc_set_theme">Ermöglicht der App, das Design der Benutzeroberfläche des Telefons zu ändern.</string>
 </resources>
