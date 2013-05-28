@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iNdskwo",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-05-28T02:25:44Z",
+      "side": 1,
+      "message": "\u003cstring name\u003d\"permdesc_set_theme\" product\u003d\"tablet\"\u003eHiermee kan de app het thema van uw tablet wijzigen.\u003c/string\u003e\n\n\n\u003cstring name\u003d\"permdesc_set_theme\" product\u003d\"default\"\u003eHiermee kan de app het thema van uw telefoon wijzigen.\u003c/string\u003e",
+      "revId": "adff37b87021c5c3e78d5f5dd29951a6b84d7ce7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
