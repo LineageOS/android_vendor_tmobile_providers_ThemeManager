@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9af37de9_af43f96b",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4280
+      },
+      "writtenOn": "2013-08-27T23:32:49Z",
+      "side": 1,
+      "message": "I think this is an app name? so maybe can change the \"provider\" to http://pastebin.com/69BuJ2LF\nLike the CM updater not a person but a machine.",
+      "revId": "f031756728a3aba07ba7d7aac43bc6c1e20d4f63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9af37de9_2f582956",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4280
+      },
+      "writtenOn": "2013-08-27T23:32:49Z",
+      "side": 1,
+      "message": "why \"this\" not \"an\"? http://pastebin.com/mNvEKVau is enough, I think.",
+      "revId": "f031756728a3aba07ba7d7aac43bc6c1e20d4f63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
