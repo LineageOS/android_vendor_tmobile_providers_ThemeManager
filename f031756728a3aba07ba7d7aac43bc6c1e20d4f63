@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9af37de9_f27326b3",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 6650
+      },
+      "writtenOn": "2013-08-30T00:15:57Z",
+      "side": 1,
+      "message": "http://pastebin.com/u9nQ3QTu",
+      "parentUuid": "9af37de9_af43f96b",
+      "revId": "f031756728a3aba07ba7d7aac43bc6c1e20d4f63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9af37de9_2f582956",
         "filename": "res/values-zh-rTW/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-08-27T23:32:49Z",
       "side": 1,
       "message": "why \"this\" not \"an\"? http://pastebin.com/mNvEKVau is enough, I think.",
+      "revId": "f031756728a3aba07ba7d7aac43bc6c1e20d4f63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ae2911b_0fee89ec",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 6650
+      },
+      "writtenOn": "2013-08-30T00:15:57Z",
+      "side": 1,
+      "message": "to emphasize that it is the function of this apps itself",
+      "parentUuid": "9af37de9_2f582956",
       "revId": "f031756728a3aba07ba7d7aac43bc6c1e20d4f63",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
