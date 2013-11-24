@@ -16,6 +16,7 @@
 
 package com.tmobile.thememanager.provider;
 
+import com.android.internal.app.IAssetRedirectionManager;
 import com.android.internal.util.ArrayUtils;
 import com.tmobile.thememanager.Constants;
 import com.tmobile.thememanager.R;
@@ -25,6 +26,7 @@ import com.tmobile.themes.provider.ThemeItem;
 import com.tmobile.themes.provider.Themes;
 import com.tmobile.themes.provider.Themes.ThemeColumns;
 
+import android.app.ActivityThread;
 import android.content.BroadcastReceiver;
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -36,7 +38,9 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.ThemeInfo;
+import android.content.res.AssetManager;
 import android.content.res.CustomTheme;
+import android.content.res.PackageRedirectionMap;
 import android.content.res.Resources;
 import android.content.res.Resources.NotFoundException;
 import android.database.Cursor;
@@ -46,6 +50,7 @@ import android.net.Uri;
 import android.os.Binder;
 import android.os.Handler;
 import android.os.Process;
+import android.os.RemoteException;
 import android.provider.MediaStore.Audio;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
@@ -466,52 +471,32 @@ public class ThemesProvider extends ContentProvider {
 
     private static boolean hasHostDensity(Context context, PackageInfo pi, ThemeInfo ti) {
         try {
-            Resources res = context.createPackageContext(pi.packageName, 0).getResources();
-            XmlPullParser parser = null;
-            int resId = res.getIdentifier("android", "xml", pi.packageName);
-            if (resId != 0) {
-                try {
-                    parser = res.getXml(resId);
-                } catch (NotFoundException e) {
-                    e.printStackTrace();
-                }
-            }
-            if (parser != null) {
-                int eventType = parser.getEventType();
-                do {
-                    if (eventType != XmlPullParser.TEXT) {
-                        continue;
-                    }
-
-                    String value = parser.getText();
-                    if (TextUtils.isEmpty(value) || !value.contains("@drawable")) {
-                        continue;
-                    }
-
-                    int index = value.indexOf("/");
-                    if (index == -1) {
-                        break;
-                    }
-
-                    String name = value.substring(index + 1);
-                    if (TextUtils.isEmpty(name)) {
-                        break;
-                    }
-
+            IAssetRedirectionManager assetRedirect = ActivityThread.getAssetRedirectionManager();
+            // Get the redirection map for this theme. This is under the assumption that all themes
+            // override something in the android package
+            PackageRedirectionMap redirectionMap = assetRedirect
+                    .getPackageRedirectionMap(pi.packageName, ti.themeId, "android");
+            Resources themeRes = new Resources(new AssetManager(), null, null);
+            for (int id : redirectionMap.getRedirectionKeys()) {
+                // Check if the current id is of drawable type
+                if (themeRes.getResourceTypeName(id).equals("drawable")) {
+                    /*
+                     * We don't need to actually read the bitmap, only look up the entry
+                     * in the resources table and examine the density with which the
+                     * AssetManager responded.
+                     */
                     TypedValue outValue = new TypedValue();
-                    int id = res.getIdentifier(name, "drawable", pi.packageName);
-                    if (id == 0) {
-                        continue;
-                    }
-
-                    res.getValue(id, outValue, true);
-                    int deviceDensity = res.getDisplayMetrics().densityDpi;
+                    themeRes.getValue(id, outValue, true);
+                    int deviceDensity = themeRes.getDisplayMetrics().densityDpi;
                     int themeResourceDensity = (outValue.density == TypedValue.DENSITY_DEFAULT) ?
                             DisplayMetrics.DENSITY_DEFAULT : outValue.density;
                     if (deviceDensity == themeResourceDensity) {
                         return true;
                     } else {
-                        int deviceBucketIndex = getDeviceBucketIndex(res);
+                        // The theme does not provide resources for the device's current density
+                        // We still let it through as long as it provides resources for close
+                        // density buckets.
+                        int deviceBucketIndex = getDeviceBucketIndex(themeRes);
                         boolean providesHigherDensityBucket = false;
                         boolean providesLowerDensityBucket = false;
                         if (deviceBucketIndex != sDensityBuckets.length - 1) {
@@ -524,29 +509,36 @@ public class ThemesProvider extends ContentProvider {
                         }
                         return providesHigherDensityBucket || providesLowerDensityBucket;
                     }
-                } while ((eventType = parser.next()) != XmlPullParser.END_DOCUMENT);
-            } else {
-                /*
-                 * We don't need to actually read the bitmap, only look up the entry
-                 * in the resources table and examine the density with which the
-                 * AssetManager responded.
-                 */
-                TypedValue outValue = new TypedValue();
-                res.getValue(ti.previewResourceId, outValue, true);
-                int density = (outValue.density == TypedValue.DENSITY_DEFAULT) ?
-                        DisplayMetrics.DENSITY_DEFAULT : outValue.density;
-                return density == res.getDisplayMetrics().densityDpi;
+                }
             }
-        } catch (IOException e) {
-            Log.w(TAG, "Parsing IO exception", e);
-        } catch (XmlPullParserException e) {
-            Log.w(TAG, "Parsing exception occured", e);
-        } catch (NameNotFoundException e) {
-            Log.w(TAG, "Possible package manager race condition detected?", e);
+        } catch (RemoteException e) {
+            Log.w(TAG, "Asset redirection manager not ready" + e.getMessage());
         }
-        return false;
+        return checkPreviewResourceDensity(context, pi, ti);
     }
 
+    private static boolean checkPreviewResourceDensity(Context context, PackageInfo pi, ThemeInfo ti) {
+        try {
+            Resources res = context.createPackageContext(pi.packageName, 0).getResources();
+            /*
+             * We don't need to actually read the bitmap, only look up the entry
+             * in the resources table and examine the density with which the
+             * AssetManager responded.
+             */
+            TypedValue outValue = new TypedValue();
+            res.getValue(ti.previewResourceId, outValue, true);
+            int density = (outValue.density == TypedValue.DENSITY_DEFAULT) ?
+                    DisplayMetrics.DENSITY_DEFAULT : outValue.density;
+            return density == res.getDisplayMetrics().densityDpi;
+        } catch (NotFoundException e) {
+            Log.w(TAG, "Missing required resource in package " + pi.packageName + ": " +
+                    e.getMessage());
+            return false;
+        } catch (NameNotFoundException e) {
+            Log.w(TAG, "Possible package manager race condition detected?", e);
+            return false;
+        }
+    }
     private static boolean hasThemePackageScope(Context context, PackageInfo pi, ThemeInfo ti) {
         if ((ti.previewResourceId >>> 24) == 0x0a) {
             return true;
