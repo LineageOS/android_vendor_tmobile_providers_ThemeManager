@@ -17,10 +17,10 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name">Pengelola Tema</string>
-  <string name="permlab_access_DrmThemeResources">baca sumber daya media dengan proteksi DRM</string>
-  <string name="permdesc_access_DrmThemeResources">Mungkinkanlah aplikasi membaca sumber daya media dengan proteksi DRM dari paket tema.</string>
-  <string name="permlab_set_theme">setel tema sistem</string>
-  <string name="permdesc_set_theme" product="tablet">Munginkanlah aplikasi mengatur tema tablet Anda.</string>
-  <string name="permdesc_set_theme" product="default">Munginkanlah aplikasi mengatur tema ponsel Anda.</string>
+  <string name="app_name">Tema sağlayıcısı</string>
+  <string name="permlab_access_DrmThemeResources">DRM korumalı ortam kaynaklarını oku</string>
+  <string name="permdesc_access_DrmThemeResources">Uygulamanın tema paketlerini DRM korumalı kaynaklardan okumasına izin verir.</string>
+  <string name="permlab_set_theme">Genel tema ayarla</string>
+  <string name="permdesc_set_theme" product="tablet">Uygulamaların tabletinizin görüntü temasını değiştirmesine izin ver.</string>
+  <string name="permdesc_set_theme" product="default">Uygulamaların telefonunuzun görüntü temasını değiştirmesine izin ver.</string>
 </resources>
