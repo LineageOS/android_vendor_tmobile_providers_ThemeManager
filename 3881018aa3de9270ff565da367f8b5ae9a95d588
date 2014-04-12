@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7af24918_2844c472",
+        "filename": "src/com/tmobile/thememanager/utils/ThemeUtilities.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-04-12T02:14:07Z",
+      "side": 1,
+      "message": "The 3rd argument must stay at getThemeId(), otherwise there\u0027s no match.",
+      "revId": "3881018aa3de9270ff565da367f8b5ae9a95d588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7af24918_0849088c",
+        "filename": "src/com/tmobile/thememanager/utils/ThemeUtilities.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-04-12T02:14:07Z",
+      "side": 1,
+      "message": "Nit:\n\nPackageManager pm \u003d context.getPackageManager();\nfor (PackageInfo pi : pm.getInstalledPackages(0)) {\n    if (pi !\u003d null \u0026\u0026 pi.isThemeApk) {\n        finalList.add(pi);\n    }\n}\n\nBoth shorter and avoids long lines.",
+      "revId": "3881018aa3de9270ff565da367f8b5ae9a95d588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
