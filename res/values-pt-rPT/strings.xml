@@ -19,7 +19,7 @@
 <resources>
   <string name="app_name">Gestor de Temas</string>
   <string name="permlab_access_DrmThemeResources">Ler recursos de multimédia protegidos por direitos digitais</string>
-  <string name="permdesc_access_DrmThemeResources">Permite uma aplicação ter acesso aos recursos de multimédia dos Pacotes de Temas protegidos por direitos digitais.</string>
+  <string name="permdesc_access_DrmThemeResources">Permite à aplicação ter acesso aos recursos de multimédia dos Pacotes de Temas protegidos por direitos digitais.</string>
   <string name="permlab_set_theme">Definir tema a ser aplicado globalmente</string>
   <string name="permdesc_set_theme" product="tablet">Permite à aplicação trocar o tema visual do seu tablet.</string>
   <string name="permdesc_set_theme" product="default">Permite à aplicação trocar o tema visual do seu telefone.</string>
